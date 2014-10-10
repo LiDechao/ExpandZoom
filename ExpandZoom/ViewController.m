@@ -31,9 +31,10 @@ static CGFloat kImageOriginHight = 240.f;
     
     expandZoomImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -kImageOriginHight, self.tableView.frame.size.width, kImageOriginHight)];
     expandZoomImageView.image = [UIImage imageNamed:@"LaraCroft.png"];
+    expandZoomImageView.contentMode = UIViewContentModeScaleAspectFill; //保证图片比例不变，但是是填充整个ImageView的，可能只有部分图片显示出来。
 //    expandZoomImageView.contentMode = UIViewContentModeScaleToFill; //默认,会导致图片变形,所有的相关变量需要自己设置
 //    expandZoomImageView.contentMode = UIViewContentModeScaleAspectFit; //会保证图片比例不变，而且全部显示在ImageView中，这意味着ImageView会有部分空白
-    expandZoomImageView.contentMode = UIViewContentModeScaleAspectFill; //保证图片比例不变，但是是填充整个ImageView的，可能只有部分图片显示出来。
+    
     
     self.tableView.contentInset = UIEdgeInsetsMake(kImageOriginHight, 0, 0, 0);
     [self.tableView addSubview:expandZoomImageView];
