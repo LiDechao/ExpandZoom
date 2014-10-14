@@ -14,6 +14,7 @@
 		F484E86C19E68A2A007A0C21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484E86B19E68A2A007A0C21 /* Images.xcassets */; };
 		F484E86F19E68A2A007A0C21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484E86D19E68A2A007A0C21 /* LaunchScreen.xib */; };
 		F484E87B19E68A2A007A0C21 /* ExpandZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484E87A19E68A2A007A0C21 /* ExpandZoomTests.m */; };
+		F4A5488F19ECFF23005E2024 /* 111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A5488E19ECFF23005E2024 /* 111@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F484E87419E68A2A007A0C21 /* ExpandZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484E87919E68A2A007A0C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F484E87A19E68A2A007A0C21 /* ExpandZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandZoomTests.m; sourceTree = "<group>"; };
+		F4A5488E19ECFF23005E2024 /* 111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		F484E85219E68A2A007A0C21 = {
 			isa = PBXGroup;
 			children = (
+				F4A5488E19ECFF23005E2024 /* 111@2x.png */,
 				F484E85D19E68A2A007A0C21 /* ExpandZoom */,
 				F484E87719E68A2A007A0C21 /* ExpandZoomTests */,
 				F484E85C19E68A2A007A0C21 /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A5488F19ECFF23005E2024 /* 111@2x.png in Resources */,
 				F484E86A19E68A2A007A0C21 /* Main.storyboard in Resources */,
 				F484E86F19E68A2A007A0C21 /* LaunchScreen.xib in Resources */,
 				F484E86C19E68A2A007A0C21 /* Images.xcassets in Resources */,
@@ -414,6 +418,7 @@
 				F484E88019E68A2A007A0C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F484E88119E68A2A007A0C21 /* Build configuration list for PBXNativeTarget "ExpandZoomTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				F484E88319E68A2A007A0C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
